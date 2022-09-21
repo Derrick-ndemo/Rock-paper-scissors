@@ -1,0 +1,41 @@
+#gameContainer{
+    background-color: aqua;
+    border-left: 4px solid red;
+    font-family: consolat, sans-serif;
+    text-align: center;
+    width: 600px;
+    padding: 10px;
+    border-radius: 40px;
+    margin: auto;
+
+}
+.choiceBtn {
+    background-color: rgba(0, 0, 0, 0.284);
+    color: white;
+    border-radius: 4px;
+    width: 150px;
+}
+#PlayerText{
+    color: orange;
+}
+#computerText{
+    color: blueviolet;
+}
+.choiceBtn:hover {
+    background-color: chartreuse;
+    animation-name: choice;
+    animation-duration: 3sec;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    cursor:pointer;
+}
+@keyframes choice {
+    
+    100%{
+        background-color: crimson;
+        transform: scale(1.2);
+    }
+}
+body {
+    background-color: darkgray;
+}
